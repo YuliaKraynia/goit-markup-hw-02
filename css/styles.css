@@ -1,11 +1,24 @@
+:root {
+    
+}
+
 .list {
     list-style: none;
 }
 
 .link {
     text-decoration: none;
+
 }
 
+body {
+font-family: 'Roboto', sans-serif;
+}
+/*================COMPONENTS===============*/
+
+/*================/COMPONENTS==============*/
+
+/*================HEADER===============*/
 .page-header {
 
 }
@@ -15,7 +28,12 @@
 }
 
 .logo {
-
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 
 .menu {
@@ -40,7 +58,6 @@
 }
 
 .contact-phone-number {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -53,7 +70,6 @@
 }
 
 .contact-email {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -64,6 +80,19 @@
 .contact-email:hover,
 .contact-email:focus {
     color: #2196F3;
+}
+/*================/HEADER===============*/
+
+/*==============HERO=======================*/
+.main-title {
+     font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    ext-transform: uppercase;
+    color: #000;
+    /*color: #FFFFFF;*/
 }
 
 .modal-btn {
@@ -76,21 +105,12 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+    color: #FFFFFF;
 }
+/*==============/HERO=======================*/
 
-.main-title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    ext-transform: uppercase;
-    color: #000;
-}
-
+/*===============DESCRIPTION==========*/
 .section-description {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -98,8 +118,18 @@
     color: #757575;
 }
 
+.title-description {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+/*===============/DESCRIPTION==========*/
+
+/*===========COLLECTIVE===============*/
 .name {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -109,7 +139,6 @@
 }
 
 .profession {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -118,18 +147,7 @@
     color: #757575;
 }
 
-.title-description {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-
 .title-section {
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -137,3 +155,71 @@
     letter-spacing: 0.03em;
     color: #212121;
 }
+/*===========/COLLECTIVE===============*/
+
+/*==============GALLERY================*/
+.services {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+ .gallery-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;   
+
+ }
+ .gallery-btn:hover,
+ .gallery-btn:focus {
+    color: #FFFFFF;
+    background: #2196F3;
+ }
+
+ .project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+ }
+
+.form-project {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+/*==============/GALLERY================*/
+
+/*================FOOTER========*/
+.adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #000;
+    /*color: #FFFFFF;*/
+}
+
+.connection {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #000;
+    /*color: rgba(255, 255, 255, 0.6);*/
+}
+/*=================/FOOTER========*/
+
